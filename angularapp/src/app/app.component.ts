@@ -26,6 +26,5 @@ export class AppComponent {
     this.resValue=(this.toCurrency/this.fromCurrency)*this.amount;
     this.resValue=Math.round(this.resValue);
     this.resValue=parseFloat(this.resValue).toFixed(2);
-    
-  }
+  }
 }
